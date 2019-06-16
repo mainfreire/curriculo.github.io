@@ -1,0 +1,461 @@
+*{
+	  margin:0;
+	padding: 0;
+
+}
+body{
+	background-color: #E0FFFF;
+	font-family:Microsoft JhengHei UI Light;
+	
+}
+.nav_tabs{
+	width: 100%;
+	height: 100%;
+	margin: 1px auto;
+	background-color: #fff;
+	position: relative;
+}
+.nav_tabs ul{
+	list-style:none;	
+}
+
+.nav_tabs ul li{
+float:left;	
+}
+
+.nav_tabs label{
+	width:100%;
+	padding:40px;
+	background-color:#B0E0E6;
+	display:block;
+	color:white;
+	text-align:justify;
+	cursor: pointer;
+}
+.nav_tabs label:hover{
+background-color:white;
+color:black;
+
+}
+
+.rd_tabs:checked ~ label{
+background-color:white ;
+color:black;
+
+}
+
+.rd_tabs
+{
+	display:none;
+	
+}
+
+.content{
+	border-top: 5px solid white;
+	background-color: #B0E0E6;
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+}
+
+.rd_tabs:checked ~ .content{
+	display: block;
+}
+
+.imagem{
+  width: 250px;
+  height:250px;
+  border-radius: 150px;
+  margin-top: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+
+.titulo{
+background-color:#B0E0E6;	
+margin: 0 auto 0 auto;
+width: 500px;
+height: 150px;
+text-align:center;
+}
+
+.titulo h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+}
+
+
+.contato{
+display:inline-block;
+width: 350px;
+ height:180px;
+ background-color: white;
+margin-right:80px;
+color:black;
+
+}
+
+.contato h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+color:black;
+}
+
+.endereco{
+display:inline-block;
+width: 350px;
+ height:180px;
+ background-color: white;
+margin-right: 80px;
+color:black;
+}
+
+.endereco h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+color:black;
+}
+
+.other{
+display:inline-block;
+width: 350px;
+ height:180px;
+ background-color: white;
+color:black;
+text-align:center;
+}
+
+
+.other h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+color:black;
+}
+
+.imagem2 {
+border-radius:100px;;
+width:150px;
+height:150px;
+
+}
+
+.container{
+	text-align: center;
+}
+
+
+input{
+width:33px;
+height:33px;
+border-radius:100px;
+}
+
+
+.box{
+height:900px;
+width: 800px;
+margin: 0 auto 0 auto;
+background-color: #B0E0E6;
+box-shadow: 3px 3px 6px black;
+text-align: center;
+}
+ 
+.box h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+}
+
+.fundamental{
+display:inline-block;
+width:300px;
+ height:130px;
+ background-color: white;
+color:black;
+margin-right:40px;
+text-align: left;
+padding:10px;
+
+}
+
+.medio{
+display:inline-block;
+width:300px;
+ height:130px;
+ background-color: white;
+color:black;
+text-align: left;
+padding:10px;
+}
+
+.fundamental h1{
+text-align: center;
+font-size:17px;
+font-family:Century Gothic;
+}
+
+.medio h1{
+text-align: center;
+font-size:17px;
+font-family:Century Gothic;
+}
+
+.box1{
+display:inline-block;
+width:660px;
+ height:217px;
+background-color: white;
+color:black;
+text-align: left;
+padding:10px;
+}
+
+.box2{
+display:inline-block;
+width:660px;
+ height:80px;
+background-color: white;
+color:black;
+text-align: left;
+padding:10px;
+}
+
+.box3{
+display:inline-block;
+width:660px;
+ height:80px;
+background-color: white;
+color:black;
+text-align: left;
+padding:10px;
+}
+
+.content table{
+margin: 0 auto 0 auto;
+text-align:justify;
+width:630px;
+height:800px;
+}
+ .otherbox{
+height:900px;
+width: 800px;
+margin: 0 auto 0 auto;
+background-color: #B0E0E6;
+box-shadow: 3px 3px 6px black;
+text-align: center;
+}
+
+
+.otherbox h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+}
+
+
+.otherbox img{
+width:150px;
+height:120px;
+}
+
+ .curiosity{
+height:1500px;
+width: 800px;
+margin: 0 auto 0 auto;
+background-color: #B0E0E6;
+box-shadow: 3px 3px 6px black;
+text-align: center;
+}
+
+
+.curiosity h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+}
+
+
+.coragem{
+display:inline-block;
+width:660px;
+ height:275px;
+background-color: white;
+color:black;
+text-align: center;
+padding:10px;
+}
+
+.coragem h1{
+text-align: center;
+font-size:17px;
+font-family:Century Gothic;
+color:black;
+}
+
+.medo{
+display:inline-block;
+width:660px;
+ height:345px;
+background-color: white;
+color:black;
+text-align: justify;
+padding:10px;
+}
+
+.medo h1{
+text-align: center;
+font-size:17px;
+font-family:Century Gothic;
+color:black;
+}
+
+.imagem3 {
+border-radius:100px;;
+width:150px;
+height:150px;
+}
+
+.animal{
+display:inline-block;
+width:660px;
+ height:250px;
+background-color: white;
+color:black;
+text-align: center;
+padding:10px;
+}
+
+.animal h1{
+text-align: center;
+font-size:17px;
+font-family:Century Gothic;
+color:black;
+}
+
+.imagem4 {
+width:150px;
+height:170px;
+}
+
+.herois{
+display:inline-block;
+width:660px;
+ height:330px;
+background-color: white;
+color:black;
+text-align: center;
+padding:10px;
+}
+
+.herois h1{
+text-align: center;
+font-size:17px;
+font-family:Century Gothic;
+color:black;
+}
+
+ .medias{
+height:1450px;
+width: 800px;
+margin: 0 auto 0 auto;
+background-color: #B0E0E6;
+box-shadow: 3px 3px 6px black;
+text-align: center;
+}
+
+.medias h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+}
+
+.medias video{
+width:280px;
+height:220px;
+}
+
+.medias table{
+width: 650px;
+height: 280px;
+text-align:center;
+}
+
+ .plans{
+height:1050px;
+width: 800px;
+margin: 0 auto 0 auto;
+background-color: #B0E0E6;
+box-shadow: 3px 3px 6px black;
+text-align: center;
+}
+
+.plans h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+}
+
+.plans table{
+width: 550px;
+height: 1000px;
+text-align:center;
+}
+
+.plans img{
+width: 100px;
+height:100px;
+}
+
+ .various{
+height:1050px;
+width: 800px;
+margin: 0 auto 0 auto;
+background-color: #B0E0E6;
+box-shadow: 3px 3px 6px black;
+text-align: center;
+padding: 20px;
+}
+
+
+.various h1{
+text-align: center;
+font-size:20px;
+font-family:Century Gothic;
+}
+
+.various table{
+width: 630px;
+height: 400px;
+text-align:center;
+}
+
+.various img{
+width: 200px;
+height:170px;
+}
+
+.imagem1{
+width: 200px;
+height:300px;
+}
+
+.image2{
+width: 200px;
+height:300px;
+}
+
+.image3{
+width: 200px;
+height:300px;
+}
+
+
