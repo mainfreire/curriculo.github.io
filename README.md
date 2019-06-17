@@ -1,1 +1,1 @@
-# curriculo.github.io
+# http://curriculo.github.io
