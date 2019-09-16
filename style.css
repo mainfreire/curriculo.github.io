@@ -457,5 +457,12 @@ height:300px;
 width: 200px;
 height:300px;
 }
-
+ 
+.copyright {
+width:100%;
+text-align:center;
+padding: 3% 4%;
+background: linear-gradient(#E0FFFF, #B0E0E6);
+font-family:Century Gothic;
+}
 
